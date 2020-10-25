@@ -1,0 +1,29 @@
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600&display=swap');
+
+/* Styling */
+body {
+  background: #7CB9E8;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+ }
+
+.txt-banner {
+  color: white;
+  border: 1px solid grey;
+  padding: 20vh 0;
+}
+
+#bnr-title {
+  font-family: 'Fira Code';
+}
+
+.sm-container {
+  height: 30px;
+  border: 1px solid black;
+  width: 50px;
+}
+
