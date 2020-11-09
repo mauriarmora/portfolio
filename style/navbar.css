@@ -1,0 +1,30 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #00204A;
+  opacity: 81%;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 42px;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar li {
+  list-style-type: none;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+}
+
+.separator {
+  height: 15px;
+  width: 1px;
+  background-color: #FDB44B;
+  margin: 0 30px;
+}
