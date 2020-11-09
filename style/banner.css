@@ -1,0 +1,42 @@
+.bnr {
+  background-color: #00204A;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.presentation {
+  text-align: center;
+  color: white;
+  width: 600px;
+  background-color: #00BBF0;
+  border: 9px solid #FDB44B;
+  border-radius: 120px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.presentation h4 {
+  font-family: 'Fira Code';
+  font-weight: lighter;
+  margin: 0;
+  margin: 21px 0;
+}
+
+.presentation h1 {
+  font-weight: 300;
+  font-size: 42.95px;
+  margin: 18px;
+}
+
+.down-arrow {
+  margin: 0 auto;
+  width: 60px;
+}
+
+.down-arrow i {
+  color: white;
+  font-size: 50px;
+  font-weight: 100;
+}
