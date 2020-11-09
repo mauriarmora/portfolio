@@ -1,0 +1,57 @@
+.about-me { background-color: #005792; }
+
+#about-me {  scroll-behavior: smooth; }
+
+.title-wrapper {
+  display: flex;
+}
+
+.description-img { display: flex; }
+
+#avatar {
+  height: 237px;
+  border-radius: 79px;
+  margin: 0 30px 30px 0;
+}
+
+.description-wrapper p {
+  line-height: 1.8rem;
+  text-align: justify;
+}
+
+.skills {
+  margin: 0 auto;
+  width: 470px;
+  padding: 20px 0;
+  border: 3px solid #FDB44B;
+  border-radius: 21px;
+  text-align: center;
+}
+
+#skills-icon {
+  width: 21px;
+  height: 21px;
+  margin-right: 12px;
+}
+
+.skills-wrapper {
+  display: flex;
+  width: 300px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.skill-wrapper {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.skill-separator {
+  height: 160px;
+  width: 1px;
+  background-color: white;
+}
+
+.languages {
+  width: 200px;
+}
