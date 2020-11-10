@@ -1,0 +1,50 @@
+#my-projects {
+  background-color: #00BBF0;
+  padding: 30px 0 50px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.flatify-screenshot-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.flatify-screenshot {
+  width: 240px;
+  border-radius: 21px;
+}
+
+.app-description {
+  text-align: justify;
+  line-height: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+.used-languages {
+  font-weight: 500;
+  font-style: italic;
+}
+
+#section-subtitle {
+  font-family: 'Fira Code';
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.gamesmaster-container {
+  display: flex;
+  margin-top: 50px;
+}
+
+.gamesmaster-description {
+  margin-left: 30px;
+}
+
+.gamesmaster-container img {
+  width: 570px;
+  border-radius: 9px;
+}
