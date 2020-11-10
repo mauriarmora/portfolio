@@ -8,7 +8,6 @@
 
 .presentation {
   text-align: center;
-  color: white;
   width: 600px;
   background-color: #00BBF0;
   border: 9px solid #FDB44B;
@@ -36,7 +35,6 @@
 }
 
 .down-arrow i {
-  color: white;
   font-size: 50px;
   font-weight: 100;
 }
