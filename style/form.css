@@ -1,0 +1,62 @@
+.form-wrapper {
+  width: 420px;
+  margin: 0 auto;
+  font-size: 18px;
+  font-family: 'Raleway';
+  font-weight: 400;
+  background-color: white;
+  padding: 42px 51px 51px 51px;
+  border-radius: 30px;
+}
+
+.form-wrapper h4 {
+  color: black;
+  margin: 0;
+}
+
+.center-title {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+#email, #fname {
+  width: 100%;
+  margin-bottom: 24px;
+  box-sizing: border-box;
+}
+
+#content {
+  width: 100%;
+  box-sizing: border-box;
+  height: 6rem;
+  resize: none;
+}
+
+#content:focus {
+  outline: none;
+}
+
+.form input:focus {
+  outline: none;
+}
+
+.form input, form textarea {
+  font-family: 'Raleway';
+  font-size: 16px;
+  padding: 10px 0;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+#submit-btn {
+  width: 100%;
+  border: none;
+  border-radius: 9px;
+  background-color: #FDB44B;
+  color: black;
+  margin: 20px 0 0 0;
+}
+
+::placeholder {
+  color: rgb(150, 150, 150);
+}
