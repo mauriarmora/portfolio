@@ -20,4 +20,3 @@ function originalSize(e) {
 banner.addEventListener('mouseenter', makeSmaller);
 banner.addEventListener('transitionend', makeBigger);
 banner.addEventListener('mouseleave', originalSize);
-
