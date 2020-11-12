@@ -21,3 +21,4 @@ banner.addEventListener('mouseenter', makeSmaller);
 banner.addEventListener('transitionend', makeBigger);
 banner.addEventListener('mouseleave', originalSize);
 
+export {banner, makeSmaller, makeBigger, originalSize};
