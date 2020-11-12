@@ -14,6 +14,9 @@
   border-radius: 120px;
   margin: 0 auto;
   padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .presentation h4 {
@@ -26,7 +29,6 @@
 .presentation h1 {
   font-weight: 300;
   font-size: 42.95px;
-  margin: 18px;
 }
 
 .down-arrow {
