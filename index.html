@@ -149,15 +149,20 @@
         <div class="center-title"><h4 id="section-subtitle">Any doubts?</h4></div>
         <div class="title-line-contact"></div>
         <div class="name-wrapper">
-          <form class="form" action="">
-            <label for="fname">Name</label>
-            <input type="text" id="fname" name="fname" placeholder="Write your full name here" required>
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="And your email address" required>
-            <label for="content">Tell me...</label>
+
+          <form class="form" action="https://formspree.io/f/mvovqlbr" method="POST">
+            <label for="full-name">Name
+              <input type="text" id="full-name" name="full-name" placeholder="Write your full name here" required>
+            </label>
+            <label for="email">Email
+              <input type="email" id="email" name="email" placeholder="And your email address" required>
+            </label>
+            <label for="content">Tell me...
             <textarea name="content" id="content" maxlength="1000" cols="30" rows="10" placeholder="What's on your mind?" required></textarea>
+            </label>
             <input type="submit" id="submit-btn" value="Submit">
           </form>
+
         </div>
       </div>
 
