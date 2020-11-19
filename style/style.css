@@ -24,6 +24,10 @@ body {
   margin: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .container {
   width: 1050px;
   margin: 0 auto;
