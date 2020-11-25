@@ -51,3 +51,32 @@ html {
   background-color: #FDB44B;
   margin-left: 15px;
 }
+
+.align-left.slide-in {
+  transition: all 0.7s;
+  transform: translateX(-10%);
+  opacity: 0;
+}
+
+.align-right.slide-in {
+  transition: all 0.7s;
+  transform: translateX(10%);
+  opacity: 0;
+}
+
+.align-up.slide-in {
+  transition: all 0.7s;
+  transform: translateY(-10%);
+  opacity: 0;
+}
+
+.align-down.slide-in {
+  transition: all 0.7s;
+  transform: translateY(10%);
+  opacity: 0;
+}
+
+.active.slide-in {
+  transform: translateX(0) translateY(0);
+  opacity: 1;
+}

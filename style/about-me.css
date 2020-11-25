@@ -25,6 +25,7 @@
 .description-wrapper p {
   line-height: 1.8rem;
   text-align: justify;
+  transition: all .5s;
 }
 
 .skills {
