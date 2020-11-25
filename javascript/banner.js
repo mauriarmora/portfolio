@@ -8,7 +8,7 @@ function makeSmaller(e) {
 
 function makeBigger(e) {
   if (e.currentTarget.style.transform === 'scale(1)') {return}
-  e.currentTarget.style.transition = '0.15s';
+  e.currentTarget.style.transition = 'all 0.5s cubic-bezier(0.25, 0.1, 0.1, 2) 0s';
   e.currentTarget.style.transform = 'scale(1.2)';
 }
 

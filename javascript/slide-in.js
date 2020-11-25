@@ -1,6 +1,6 @@
 export const slideIn = document.querySelectorAll('.slide-in');
 
-function debounce(func, wait = 10, immediate = true) {
+function debounce(func, wait = 15, immediate = true) {
   let timeout;
   return function() {
     let context = this, args = arguments;
