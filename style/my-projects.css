@@ -14,7 +14,7 @@
 }
 
 .flatify-screenshot {
-  width: 240px;
+  width: 270px;
   border-radius: 21px;
 }
 
@@ -30,8 +30,7 @@
 }
 
 #section-subtitle {
-  font-family: 'Fira Code';
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: 1rem;
 }
 
@@ -45,6 +44,93 @@
 }
 
 .gamesmaster-container img {
-  width: 570px;
+  width: 690px;
   border-radius: 9px;
+}
+
+#section-subtitle-sm {
+  display: none;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+/****** Under 1200px ******/
+
+@media (max-width: 1200px) {
+  .flatify-screenshot {
+    width: 230px;
+    border-radius: 18px;
+  }
+
+  .gamesmaster-container img {
+    width: 600px;
+    border-radius: 9px;
+  }
+
+  #section-subtitle-sm {
+    display: none;
+    font-weight: 500;
+    margin-bottom: 1rem;
+  }
+}
+
+
+/****** Under 992px ******/
+
+@media (max-width: 992px) {
+  .flatify-screenshot {
+    width: 230px;
+    border-radius: 18px;
+    margin-right: 10px;
+  }
+
+  .flatify-screenshot-container {
+    overflow-x: auto;
+  }
+
+  .gamesmaster-container img {
+    width: 100%;
+    border-radius: 9px;
+    margin-bottom: 30px;
+  }
+
+  #section-subtitle-sm {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 1rem;
+  }
+
+  .gamesmaster-description h4 {
+    display: none;
+  }
+
+  .gamesmaster-container {
+    display: block;
+  }
+
+  .gamesmaster-description {
+    margin-left: 0;
+    margin-top: 0;
+  }
+}
+
+/****** Under 768 ******/
+
+@media (max-width: 768px) {
+  .flatify-screenshot {
+    width: 170px;
+    border-radius: 12px;
+    display: inline-block;
+  }
+
+  .flatify-screenshot-container {
+    overflow-x: auto;
+  }
+
+  .gamesmaster-container img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 9px;
+  }
 }

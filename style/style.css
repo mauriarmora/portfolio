@@ -1,8 +1,8 @@
-/* Import fonts */
+/*** Import fonts ***/
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&display=swap');
 
-/* Import sheets */
+/*** Import sheets ***/
 @import url(banner.css);
 @import url(navbar.css);
 @import url(about-me.css);
@@ -10,7 +10,7 @@
 @import url(contact.css);
 @import url(form.css);
 
-/* Styling */
+/*** Font and body styling ***/
 h1 { font-size: 43.95px; color: white; margin: 0; }
 h2 { font-size: 35.16px; color: white; margin: 0; }
 h3 { font-size: 28.13px; color: white; margin: 0; }
@@ -28,10 +28,35 @@ html {
   scroll-behavior: smooth;
 }
 
+/*** Styling ***/
 .container {
-  width: 1050px;
+  width: 1140px;
   margin: 0 auto;
  }
+
+@media (max-width: 1200px) {
+  .container {
+    width: 960px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    width: 720px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 540px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    width: 460px;
+  }
+}
 
 .title-wrapper {
   display: flex;
@@ -54,29 +79,33 @@ html {
 
 .align-left.slide-in {
   transition: all 0.7s;
-  transform: translateX(-10%);
+  transform: translateX(-5%);
   opacity: 0;
 }
 
 .align-right.slide-in {
   transition: all 0.7s;
-  transform: translateX(10%);
+  transform: translateX(5%);
   opacity: 0;
 }
 
 .align-up.slide-in {
   transition: all 0.7s;
-  transform: translateY(-10%);
+  transform: translateY(-5%);
   opacity: 0;
 }
 
 .align-down.slide-in {
   transition: all 0.7s;
-  transform: translateY(10%);
+  transform: translateY(5%);
   opacity: 0;
 }
 
 .active.slide-in {
   transform: translateX(0) translateY(0);
   opacity: 1;
+}
+
+#hidden {
+  display: none;
 }
