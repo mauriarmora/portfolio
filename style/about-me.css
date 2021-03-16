@@ -82,3 +82,9 @@
   justify-self: start;
   margin-left: 36px;
 }
+
+@media (max-width: 992px) {
+  #avatar {
+    float: left;
+  }
+}
